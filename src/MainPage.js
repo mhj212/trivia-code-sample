@@ -98,12 +98,18 @@ const MainPage = () => {
         }
     }
 
+    const decodeEntity = (inputStr) => {
+        var textarea = document.createElement("textarea");
+        textarea.innerHTML = inputStr;
+        return textarea.value;
+    }
+
     const questionsScreen = () => {
         return (
             <div>
                 <h1>{apiData[questionNumber].category}</h1>
                 <div id="question-container">
-                    <span>{apiData[questionNumber].question}</span>
+                    <span>{decodeEntity(apiData[questionNumber].question)}</span>
                 </div>
                 <div id="question-count">
                     <span>{questionNumber + 1} of 10</span>
@@ -139,7 +145,7 @@ const MainPage = () => {
                 <ol>
                     {apiData.map((item, i) => {
                         return (<div>
-                            <p>{item.question}</p>
+                            <p>{decodeEntity(item.question)}</p>
                             <span style={userAnswers[i] === "correct" ? { color: 'green' } : { color: 'red' }}>{userAnswers[i]}</span>
                         </div>)
                     })}
