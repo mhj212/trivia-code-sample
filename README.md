@@ -1,4 +1,4 @@
-# Matthew's G2i Code challenge!!
+# Matthew's 2022 code sample!!  A game of triva.
 
 Hi!
 
