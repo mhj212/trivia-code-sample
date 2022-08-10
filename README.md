@@ -4,6 +4,10 @@ Hi!
 
 Thanks for taking the time to review my app.
 
+To install the app:
+
+### `npm install`
+
 To run the app:
 
 ### `npm start`
