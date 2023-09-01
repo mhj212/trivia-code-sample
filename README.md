@@ -1,4 +1,4 @@
-# Matthew's 2022 code sample!!  A game of triva.
+# Matthew's code sample!!  A game of triva.
 
 Hi!
 
