@@ -14,6 +14,6 @@ To run the app on your local:
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Link to to app:
+Link to the app:
 
 https://trivia-app-mhj-89988a0670a9.herokuapp.com/
